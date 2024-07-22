@@ -1,0 +1,107 @@
+/* src/MyProducts.css */
+.my-products {
+    padding: 20px;
+    background-color: #f8f8f8;
+    min-height: 100vh;
+    font-family: 'Arial', sans-serif;
+}
+
+.my-products-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.my-products h2 {
+    margin: 0;
+}
+
+.add-product-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.add-product-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.my-products-grid{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.my-product-card {
+    background: white;
+    width: 400px;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+
+.my-product-card h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.my-product-card p {
+    margin: 5px 0;
+    font-size: 1rem;
+}
+
+.my-product-image {
+    max-width: 300px;
+    max-height: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.my-product-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.my-product-actions button {
+    padding: 10px;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.my-product-actions button:hover {
+    background-color: #218838; 
+    transform: scale(1.05);
+}
+
+.my-product-actions button:nth-child(2) {
+    background-color: #dc3545; 
+}
+
+.my-product-actions button:nth-child(2):hover {
+    background-color: #c82333;
+}
+
+.my-product-card input,
+.my-product-card textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

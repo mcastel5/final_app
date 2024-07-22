@@ -1,0 +1,58 @@
+/* src/AddProduct.css */
+.add-product {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    background-color: #f8f8f8;
+    padding: 0 20px;
+  }
+  
+  .add-product-container {
+    text-align: center;
+    max-width: 400px;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    font-family: 'Arial', sans-serif; /* Use the same font as the rest of the app */
+  }
+  
+  .add-product h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    font-family: 'Arial', sans-serif; /* Use the same font as the rest of the app */
+  }
+  
+  .add-product form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .add-product input,
+  .add-product textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Arial', sans-serif; /* Use the same font as the rest of the app */
+  }
+  
+  .add-product button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745; /* Use the same button color as the rest of the app */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-family: 'Arial', sans-serif; /* Use the same font as the rest of the app */
+  }
+  
+  .add-product button:hover {
+    background-color: #218838; /* Use the same hover color as the rest of the app */
+    transform: scale(1.05);
+  }
+  

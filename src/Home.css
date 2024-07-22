@@ -1,0 +1,65 @@
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+  padding: 0 20px;
+}
+
+.home {
+  text-align: center;
+  max-width: 600px;
+  padding: 50px;
+  background: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  margin-top: -160px;
+}
+
+.home h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.authentication button {
+  display: inline-block;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: #25af07;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.authentication button:hover {
+  background-color: #01901b;
+  transform: scale(1.05);
+}
+.authentication button:active {
+  background-color: #055019;
+  transition: background-color 0s ease;
+}
+@media (max-width: 768px) {
+  .home h2 {
+    font-size: 2rem;
+  }
+
+  .home p {
+    font-size: 1rem;
+  }
+
+  .authentication button {
+    width: 100%;
+    margin: 10px 0;
+  }
+}
