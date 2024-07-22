@@ -1,0 +1,87 @@
+/* src/ChefOrderApp.css */
+.order-list-container {
+    padding: 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .order-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .order-item {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+  }
+  
+  .order-item:hover {
+    background-color: #f1f1f1;
+    transform: translateY(-5px);
+  }
+  
+  .order-details {
+    margin-top: 20px;
+    padding: 20px;
+    border-top: 1px solid #dee2e6;
+  }
+  
+  .order-details h3 {
+    margin-top: 0;
+  }
+  
+  .order-details p {
+    margin: 5px 0;
+  }
+  
+  .order-details button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin:3px;
+    border-radius: 5px;
+    width: 12rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .order-details button:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+  }
+  
+  .order-details button:active {
+    background-color: #055019;
+    transition: background-color 0s ease;
+  }
+  
+  .order-details input {
+    margin-right: 10px;
+    width: 13rem;
+  }
+  
+  .preparing-container {
+    margin-top: 20px;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .preparing-list {
+    border-top: 1px solid #dee2e6;
+    padding-top: 10px;
+  }
+  
+  .preparing-item {
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+  }
