@@ -1,8 +1,8 @@
-## Welcome to Artisan Market
+# Welcome to Artisan Market
 
 This app creates a marketplace for artisans to post products and consumers to find great deals. In this Beta Phase, a user can create an account, browse and add products to cart, and even create a new product.
 
-# Getting Started with Create React App
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
